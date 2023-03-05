@@ -14,5 +14,7 @@ deploy:
   region: "us-west-2"
   app: "swe1"
   env: "swe1-env"
-  bucket_name: "elasticbeanstalk-us-west-2-015227746519"
+  bucket_name: $BUCKET
+  on:
+    all_branches: true
 
